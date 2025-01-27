@@ -1,0 +1,24 @@
+{
+    "name": "roo_backport",
+    "description": "Backport of some of C++17 and C++20 functionality, so that it can be used with older compilers.",
+    "authors": [
+        {
+            "name": "Dawid Kurzyniec",
+            "email": "dawid.kurzyniec@gmail.com",
+            "maintainer": true
+        }
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/dejwk/roo_backport"
+    },
+    "version": "1.0.0",
+    "homepage": "https://github.com/dejwk/roo_backport",
+    "frameworks": [
+        "*"
+    ],
+    "build": {
+        "srcDir": "src",
+        "srcFilter": "+<*> -<examples> -<test>"
+    }
+}
