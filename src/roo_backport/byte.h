@@ -1,16 +1,16 @@
 #ifndef ROO_BACKPORT_BYTE_H_
 #define ROO_BACKPORT_BYTE_H_
 
+#if __cplusplus >= 201703L
 #include <cstddef>
 
 namespace roo {
-
-#if __cplusplus >= 201703L
 using byte = std::byte;
+}
 #else
+namespace roo {
 using byte = unsigned char;
+}
 #endif
-
-}  // namespace roo
 
 #endif  // ROO_BACKPORT_BYTE_H_
