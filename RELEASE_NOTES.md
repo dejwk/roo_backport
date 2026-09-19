@@ -1,3 +1,11 @@
+# roo_backport 1.2.4
+
+## Changed
+
+- Updated the Bazel `rules_cc` dependency to version 0.2.25.
+
+---
+
 # [roo_backport 1.2.3](https://github.com/dejwk/roo_backport/releases/tag/1.2.3)
 
 Published 2026-08-21.
