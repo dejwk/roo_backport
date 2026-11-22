@@ -1,2 +1,1 @@
-# This host-only library has no roo_testing frontend profile.
-BAZELISK_SKIP_WRAPPER=true
+BAZELISK_WRAPPER_DIRECTORY=.roo_testing/bin

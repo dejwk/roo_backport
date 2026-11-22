@@ -1,7 +1,8 @@
 # roo_backport 1.2.5
 
-- Updated `roo_testing` in GitHub Actions CI from 2.0.0 to 2.5.0.
-- Added a Bazelisk wrapper, Bazel configurations for nine embedded profiles across ESP32, ESP32-C3, ESP32-S3, and RP2040, and a script that selects each profile in turn.
+- Added Bazel tests for `roo::byte`, `roo::move`, and `roo::string_view` in C++11 and C++17, and enabled them in GitHub Actions. Updated the CI workflow dependency from `roo_testing` 2.0.0 to 2.5.0.
+- Added and configured a Bazelisk wrapper, nine Bazel profiles across ESP32, ESP32-C3, ESP32-S3, and RP2040, and a script to run tests across all nine profiles.
+- Declared the library headers as public headers in the Bazel target.
 - Added a shared C++ formatting configuration and contributor guidance for embedded C++ and design documents.
 
 ---
