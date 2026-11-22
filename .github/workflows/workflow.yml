@@ -17,4 +17,4 @@ jobs:
     uses: dejwk/roo_testing/.github/workflows/client-ci.yml@19dda59607baa11ee15a129da6de0300924e84d2 # roo_testing 2.5.0
     with:
       profiles: '["host"]'
-      run_tests: false
+      run_tests: true
