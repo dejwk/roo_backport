@@ -1,6 +1,8 @@
 # roo_backport 1.3.0
 
-- Add `roo::countr_zero` with the standard zero-input result and C++11 support.
+- Added `roo::countr_zero` in `roo_backport/bit.h`, a C++11 `constexpr` backport of `std::countr_zero` for unsigned integers. A zero input returns the number of value bits in its type.
+- Added Bazel test coverage for `roo::countr_zero` in C++11, C++17, and C++20, including a dedicated C++11 target for the portable fallback.
+- Upgraded `roo_testing` from 2.6.0 to 2.7.0 in both the Bazel development dependency and the shared GitHub Actions workflow.
 
 ---
 
