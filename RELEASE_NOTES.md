@@ -1,3 +1,9 @@
+# roo_backport 1.2.5
+
+- Updated the GitHub Actions CI workflow to use `roo_testing` 2.5.0, up from 2.0.0.
+
+---
+
 # roo_backport 1.2.4
 
 ## Changed
