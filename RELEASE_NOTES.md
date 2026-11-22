@@ -1,3 +1,9 @@
+# roo_backport 1.3.0
+
+- Add `roo::countr_zero` with the standard zero-input result and C++11 support.
+
+---
+
 # roo_backport 1.2.5
 
 - Added Bazel tests for `roo::byte`, `roo::move`, and `roo::string_view` in C++11 and C++17. GitHub Actions now runs tests on the host and nine embedded profiles covering ESP32, ESP32-C3, ESP32-S3, and RP2040.
